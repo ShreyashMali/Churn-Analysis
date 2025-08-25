@@ -58,7 +58,7 @@ This project analyzes customer churn data using SQL queries to identify churn pa
 ## Tools & Technologies
 
 SQL(queries for data exploration and analysis)
-Dataset: Customer churn records
+Dataset: churn_data.csv
 
 ## Insights
 
@@ -94,7 +94,7 @@ This project uses Power BI to create an interactive dashboard that visualizes cu
 ## Tools & Technologies
 
 Power BI→ Dashboard creation & data visualization
-Dataset → Customer churn dataset (CustomerID, Gender, Age, Tenure, MonthlyCharges, Churn)
+Dataset → churn_data.csv (CustomerID, Gender, Age, Tenure, MonthlyCharges, Churn)
 
 ## Insights
 
