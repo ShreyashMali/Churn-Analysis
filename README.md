@@ -75,7 +75,7 @@ Develop targeted pricing and retention strategies.
 Improve customer satisfaction and loyalty.
 -
 
-#Power BI Dashboard
+##Power BI Dashboard
 
 ## 📊 Overview
 
