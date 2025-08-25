@@ -75,37 +75,48 @@ Develop targeted pricing and retention strategies.
 Improve customer satisfaction and loyalty.
 -
 
+#Power BI Dashboard
+
+## 📊 Overview
+
+This project features an interactive *Customer Churn Analysis Dashboard* built in Microsoft Power BI. The dashboard provides a comprehensive view of customer demographics, subscription details, and financial metrics to identify key factors influencing customer churn. The goal is to enable data-driven decision-making for improving customer retention strategies.
+
+## 🚀 Technologies Used
+
+*   *Data Analysis & Visualization:* Microsoft Power BI
+*   *Data Processing:* Power Query (M Language)
+*   *Data Modeling:* DAX (Data Analysis Expressions)
+*   *Key Metrics Calculated:* Churn Rate, Average Tenure, Average Monthly Charges, Total Revenue.
+
+## 📈 Key Insights
+
+The analysis of the customer base reveals several critical insights:
+
+  Overall Churn Rate: The customer churn rate stands at *26.8%*, indicating a significant portion of the subscriber base is leaving.
+    Financial Impact: Churned customers generated a total of *$364.93K* in revenue, highlighting the direct financial impact of attrition.
+  
+Monthly Spending: The average monthly charge for all customers is *$71.47*. A deeper dive into how this differs between retained and churned customers can reveal pricing sensitivities.
+Customer Loyalty: The average customer tenure is *31.44* months. Analyzing tenure against churn can help identify the "at-risk" period for subscribers.
+Demographic Analysis: The dashboard allows for filtering by *Gender* (Male/Female) to uncover any trends specific to demographic segments.
+Payment Methods: The visualization includes analysis by payment method (e.g., Credit Card, Bank Transfer, Electronic Check), which can indicate if certain payment processes are correlated with higher churn.
+Tenure vs. Churn: A combined chart shows the count of customers by their tenure and churn status, helping to pinpoint exactly when customers are most likely to leave.
+
+## 📁 Project Structure
 
 
-# Churn Analysis Dashboard (Power BI)
+├── Churn_Analysis.pbix          # Main Power BI Desktop file
+├── CHURN_ANALYSIS.png           # Exported dashboard overview
+└── README.md                    # Project documentation (this file)
 
-## Overview
 
-This project uses Power BI to create an interactive dashboard that visualizes customer churn data. The dashboard highlights churn rates, customer demographics, and billing patterns to help businesses identify at-risk customers and improve retention strategies.
+## 🔮 How to Use
 
-## Key Features
+1.  Download the .pbix file and open it with *Microsoft Power BI Desktop*.
+2.  Interact with the dashboard by using the various filters (e.g., Gender, Contract Type, Payment Method).
+3.  Hover over charts to see detailed tooltips.
+4.  Click on specific data points in one visual to cross-filter the others for deeper analysis.
 
-1. Overall Churn Rate – Track the percentage of customers who left vs. retained.
-2. Demographic Insights – Analyze churn distribution by gender, age group, and tenure.
-3. Revenue Impact – Compare average monthly charges for churned vs. active customers.
-4. High-Risk Segments– Identify customers with high monthly charges and low tenure.
-5. Interactive Filters – Explore churn data across multiple dimensions (tenure, services used, payment method).
+## ✍ Author
 
-## Tools & Technologies
+Developed as a data analysis project.
 
-Power BI→ Dashboard creation & data visualization
-Dataset → churn_data.csv (CustomerID, Gender, Age, Tenure, MonthlyCharges, Churn)
-
-## Insights
-
-Customers with higher monthly charges and shorter tenure are more likely to churn.
-Churn behavior differs across demographics, showing patterns by gender and age.
-Interactive filters allow deeper exploration of at-risk customer segments.
-
-## Purpose
-
-This dashboard empowers stakeholders to:
-
- Monitor churn trends in real time.
- Identify customer segments at high risk of churn.
- Support **data-driven retention strategies** to improve customer loyalty.
